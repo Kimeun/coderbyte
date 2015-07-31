@@ -1,0 +1,23 @@
+def CheckNums(num1,num2)
+
+  if num1>num2
+	conc=true
+ 
+    
+  else if num1 == num2
+     conc="-1"
+    
+  else
+    conc=false
+ 
+  end
+  
+end
+  
+  return conc
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+CheckNums(STDIN.gets)
