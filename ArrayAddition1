@@ -1,0 +1,12 @@
+def ArrayAdditionI(arr)
+
+ 
+  max = arr.max
+  sum = arr.inject{|sum,x| sum + x }
+
+   
+  return (max * 2 == sum).to_s  
+  
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+ArrayAdditionI(STDIN.gets)           
